@@ -132,9 +132,7 @@ export default function App() {
     <div className="app">
       {/* Hero */}
       <div className="hero">
-        <div className="hero-badge">
-          Catalyst Hackathon — Deccan AI
-        </div>
+        
         <h1>AI Talent Scouting Agent</h1>
         <p>
           Drop a Job Description. The agent parses it, discovers matching candidates,
@@ -142,7 +140,7 @@ export default function App() {
         </p>
         
         {view === 'analyzer' && (
-          <div style={{ display: 'flex', justifyContent: 'center', gap: 12, marginTop: 12 }}>
+          <div style={{ display: 'flex', justifyContent: 'center', gap: 12, marginTop: 12, marginBottom: 32 }}>
             <button className="btn-secondary" onClick={() => setView('registration')}>
               Register Candidates (Resume Upload)
             </button>
