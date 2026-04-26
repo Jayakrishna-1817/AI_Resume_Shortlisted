@@ -97,7 +97,8 @@ export default function App() {
     }
 
     try {
-      const res = await fetch('/api/analyze', {
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://ai-resume-shortlisted.onrender.com'
+      const res = await fetch(`${API_BASE}/api/analyze`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(params),

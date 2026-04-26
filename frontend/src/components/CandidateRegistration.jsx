@@ -24,7 +24,8 @@ export default function CandidateRegistration({ onBack }) {
       const controller = new AbortController();
       const timeoutId = setTimeout(() => controller.abort(), 90000); // 90 second timeout for AI parsing
 
-      const res = await fetch('/api/upload-resumes', {
+      const API_BASE = import.meta.env.VITE_API_BASE_URL || 'https://ai-resume-shortlisted.onrender.com'
+      const res = await fetch(`${API_BASE}/api/upload-resumes`, {
         method: 'POST',
         body: formData,
         signal: controller.signal
