@@ -5,6 +5,11 @@
 An end-to-end AI agent that fully automates the recruiter workflow:
 
 **JD Input → AI Parsing → Candidate Matching → Conversational Outreach → Ranked Shortlist → Email Outreach**
+  
+### 🚀 Live Demo & Links
+- **Frontend App (Vercel)**: [https://ai-resume-shortlisted.vercel.app/](https://ai-resume-shortlisted.vercel.app/)
+- **Backend API (Render)**: [https://ai-resume-shortlisted.onrender.com/docs](https://ai-resume-shortlisted.onrender.com/docs)
+- **GitHub Repository**: [https://github.com/Jayakrishna-1817/AI_Resume_Shortlisted](https://github.com/Jayakrishna-1817/AI_Resume_Shortlisted)
 
 ---
 
